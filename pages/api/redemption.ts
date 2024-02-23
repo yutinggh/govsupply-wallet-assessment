@@ -32,7 +32,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 redeemed_at: new Date()
             });
 
-            res.status(200).json({ message: 'Redemption successful', team_name });
+            res.status(200).json({ message: `Redemption is successful by ${team_name} team` });
         } catch (error) {
             console.error('Error redeeming gift:', error);
             res.status(500).json({ error: 'Internal server error' });
