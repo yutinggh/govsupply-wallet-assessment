@@ -6,12 +6,13 @@ Add new redemption to the redemption data if this team is still eligible for red
 
 ## Demo
 
-(https://govsupply-wallet-assessment.vercel.app/)
+https://govsupply-wallet-assessment.vercel.app/
 
 
 ## Tech Stack
 
 **Client**: Next.js v13.4.10
+
 **Database**: MongoDB
 
 
